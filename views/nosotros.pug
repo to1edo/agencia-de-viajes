@@ -1,0 +1,32 @@
+extends ./layouts/index
+
+block contenido
+    main.container.md-5
+        .row 
+            .col-md-5 
+                img(src="/img/nosotros.jpg", alt="nostros" , class="img-fluid")
+
+            .col-md-7
+                h1 #{pagina}
+
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed massa quis lacus euismod fringilla quis id magna. Cras in facilisis diam. Integer eleifend bibendum consequat. Etiam vitae tincidunt purus, a vestibulum velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi velit purus, ultrices non vulputate quis, lacinia quis sapien. Sed sed nisl a dolor volutpat porta. Fusce rhoncus consectetur lectus, varius suscipit erat vestibulum sit amet. Sed non vulputate dolor.
+
+                p Curabitur ut dui aliquam, blandit orci non, dictum sapien. Maecenas facilisis ac dolor non accumsan. Donec semper nisl at turpis hendrerit, aliquam blandit nisl finibus. Morbi porttitor at nibh non scelerisque. Phasellus sodales felis eu orci feugiat suscipit non non libero. Proin varius orci at dolor porta commodo. Nulla dictum neque sed turpis suscipit, sed aliquam ex dignissim. Proin luctus turpis in hendrerit tempor.
+
+    .listado-iconos 
+        .container.mt-5.py-5.text-center
+            .row    
+                .col-md-4
+                    img(src="/img/icono_seguridad.svg", alt="icono", class="img-fluid")
+                    h2.mb-4 Seguridad
+                    p Proin varius orci at dolor porta commodo. Nulla dictum neque sed turpis suscipit, sed aliquam ex dignissim. Proin luctus turpis in hendrerit tempor.
+
+                .col-md-4
+                    img(src="/img/icono_destinos.svg", alt="icono", class="img-fluid")
+                    h2.mb-4 Mejores destinos
+                    p Proin varius orci at dolor porta commodo. Nulla dictum neque sed turpis suscipit, sed aliquam ex dignissim. Proin luctus turpis in hendrerit tempor.
+                
+                .col-md-4
+                    img(src="/img/icono_precio.svg", alt="icono", class="img-fluid")
+                    h2.mb-4 Mejores precios
+                    p Proin varius orci at dolor porta commodo. Nulla dictum neque sed turpis suscipit, sed aliquam ex dignissim. Proin luctus turpis in hendrerit tempor.
