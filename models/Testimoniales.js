@@ -1,15 +1,15 @@
-import Sequelize from 'Sequelize';
+import sequelize from 'sequelize';
 import db from '../config/db.js';
 
 export const Testimoniales = db.define('testimoniales',{
 
     nombre:{
-        type: Sequelize.STRING
+        type: sequelize.STRING
     },
     correo:{
-        type: Sequelize.STRING
+        type: sequelize.STRING
     },
     mensaje:{
-        type: Sequelize.STRING
+        type: sequelize.STRING
     }
 })
